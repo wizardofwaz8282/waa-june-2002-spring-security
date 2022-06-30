@@ -1,9 +1,7 @@
-package edu.miu.cs545.aop.utils;
+package edu.miu.cs545.springsecurityjwt.utils;
 
-import edu.miu.cs545.aop.dto.ProductDto;
-import edu.miu.cs545.aop.dto.ReviewDto;
-import edu.miu.cs545.aop.entity.Product;
-import edu.miu.cs545.aop.entity.Review;
+import edu.miu.cs545.springsecurityjwt.dto.ProductDto;
+import edu.miu.cs545.springsecurityjwt.entity.Product;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

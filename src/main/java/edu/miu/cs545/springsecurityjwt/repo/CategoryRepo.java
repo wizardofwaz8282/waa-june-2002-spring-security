@@ -1,6 +1,6 @@
-package edu.miu.cs545.aop.repo;
+package edu.miu.cs545.springsecurityjwt.repo;
 
-import edu.miu.cs545.aop.entity.Category;
+import edu.miu.cs545.springsecurityjwt.entity.Category;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

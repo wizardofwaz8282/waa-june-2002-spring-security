@@ -1,9 +1,9 @@
-package edu.miu.cs545.aop.service.implementation;
+package edu.miu.cs545.springsecurityjwt.service.implementation;
 
-import edu.miu.cs545.aop.dto.UserDto;
-import edu.miu.cs545.aop.repo.UserRepository;
-import edu.miu.cs545.aop.service.UserService;
-import edu.miu.cs545.aop.utils.UserUtils;
+import edu.miu.cs545.springsecurityjwt.dto.UserDto;
+import edu.miu.cs545.springsecurityjwt.repo.UserRepository;
+import edu.miu.cs545.springsecurityjwt.service.UserService;
+import edu.miu.cs545.springsecurityjwt.utils.UserUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

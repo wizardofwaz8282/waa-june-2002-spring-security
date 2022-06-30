@@ -1,5 +1,7 @@
-package edu.miu.cs545.aop.entity;
+package edu.miu.cs545.springsecurityjwt.entity;
 
+import edu.miu.cs545.springsecurityjwt.entity.Address;
+import edu.miu.cs545.springsecurityjwt.entity.Review;
 import edu.miu.cs545.springsecurityjwt.entity.Role;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -28,9 +30,9 @@ public class User {
 
 
     @Embedded
-    private edu.miu.cs545.aop.entity.Address address;
+    private Address address;
     @OneToMany(mappedBy = "userId",cascade = CascadeType.ALL)
-    private List<edu.miu.cs545.aop.entity.Review> reviews;
+    private List<Review> reviews;
 
 
 }

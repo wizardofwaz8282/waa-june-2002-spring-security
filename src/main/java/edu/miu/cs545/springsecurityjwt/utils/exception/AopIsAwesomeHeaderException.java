@@ -1,4 +1,4 @@
-package edu.miu.cs545.aop.utils.exception;
+package edu.miu.cs545.springsecurityjwt.utils.exception;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

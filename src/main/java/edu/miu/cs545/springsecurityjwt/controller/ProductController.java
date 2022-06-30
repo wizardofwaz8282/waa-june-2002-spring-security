@@ -1,8 +1,8 @@
-package edu.miu.cs545.aop.controller;
+package edu.miu.cs545.springsecurityjwt.controller;
 
-import edu.miu.cs545.aop.aspect.annotation.ExecutionTime;
-import edu.miu.cs545.aop.dto.ProductDto;
-import edu.miu.cs545.aop.service.ProductService;
+import edu.miu.cs545.springsecurityjwt.aspect.annotation.ExecutionTime;
+import edu.miu.cs545.springsecurityjwt.dto.ProductDto;
+import edu.miu.cs545.springsecurityjwt.service.ProductService;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

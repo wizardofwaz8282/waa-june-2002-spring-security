@@ -1,8 +1,8 @@
-package edu.miu.cs545.aop.service.implementation;
+package edu.miu.cs545.springsecurityjwt.service.implementation;
 
-import edu.miu.cs545.aop.entity.ActivityLog;
-import edu.miu.cs545.aop.repo.ActivityLogRepo;
-import edu.miu.cs545.aop.service.ActivityLogService;
+import edu.miu.cs545.springsecurityjwt.entity.ActivityLog;
+import edu.miu.cs545.springsecurityjwt.repo.ActivityLogRepo;
+import edu.miu.cs545.springsecurityjwt.service.ActivityLogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

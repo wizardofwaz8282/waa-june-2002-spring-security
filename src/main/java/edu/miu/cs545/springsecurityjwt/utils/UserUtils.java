@@ -1,7 +1,8 @@
-package edu.miu.cs545.aop.utils;
+package edu.miu.cs545.springsecurityjwt.utils;
 
-import edu.miu.cs545.aop.dto.UserDto;
-import edu.miu.cs545.aop.entity.User;
+
+import edu.miu.cs545.springsecurityjwt.dto.UserDto;
+import edu.miu.cs545.springsecurityjwt.entity.User;
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;

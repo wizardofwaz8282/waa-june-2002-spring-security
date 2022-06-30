@@ -1,11 +1,11 @@
 package edu.miu.cs545.springsecurityjwt.security;
 
+import edu.miu.cs545.springsecurityjwt.repo.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import edu.miu.cs545.aop.repo.UserRepository;
 @Service("userDetailsService")
 @Transactional
 public class AwesomeUserDetailsService implements UserDetailsService {
@@ -22,3 +22,4 @@ public class AwesomeUserDetailsService implements UserDetailsService {
         var userDetails = new AwesomeUserDetails(user);
         return userDetails;
     }
+}

@@ -1,7 +1,6 @@
-package edu.miu.cs545.aop.dto;
+package edu.miu.cs545.springsecurityjwt.dto;
 
-import edu.miu.cs545.aop.entity.Address;
-import edu.miu.cs545.aop.entity.Review;
+import edu.miu.cs545.springsecurityjwt.entity.Address;
 import lombok.Data;
 
 import java.io.Serializable;

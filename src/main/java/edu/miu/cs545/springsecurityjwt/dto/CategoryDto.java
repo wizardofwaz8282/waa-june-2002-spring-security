@@ -1,4 +1,4 @@
-package edu.miu.cs545.aop.dto;
+package edu.miu.cs545.springsecurityjwt.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

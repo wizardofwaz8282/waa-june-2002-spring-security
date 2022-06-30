@@ -1,4 +1,4 @@
-package edu.miu.cs545.aop.entity;
+package edu.miu.cs545.springsecurityjwt.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

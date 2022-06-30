@@ -1,9 +1,8 @@
-package edu.miu.cs545.aop.controller;
+package edu.miu.cs545.springsecurityjwt.controller;
 
-import edu.miu.cs545.aop.aspect.annotation.ExecutionTime;
-import edu.miu.cs545.aop.dto.ReviewDto;
-import edu.miu.cs545.aop.dto.UserDto;
-import edu.miu.cs545.aop.service.UserService;
+import edu.miu.cs545.springsecurityjwt.aspect.annotation.ExecutionTime;
+import edu.miu.cs545.springsecurityjwt.dto.UserDto;
+import edu.miu.cs545.springsecurityjwt.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

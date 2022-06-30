@@ -1,11 +1,11 @@
-package edu.miu.cs545.aop.service.implementation;
+package edu.miu.cs545.springsecurityjwt.service.implementation;
 
-import edu.miu.cs545.aop.dto.ProductDto;
-import edu.miu.cs545.aop.entity.Product;
-import edu.miu.cs545.aop.repo.CategoryRepo;
-import edu.miu.cs545.aop.repo.ProductRepo;
-import edu.miu.cs545.aop.service.ProductService;
-import edu.miu.cs545.aop.utils.ProductUtils;
+import edu.miu.cs545.springsecurityjwt.dto.ProductDto;
+import edu.miu.cs545.springsecurityjwt.entity.Product;
+import edu.miu.cs545.springsecurityjwt.repo.CategoryRepo;
+import edu.miu.cs545.springsecurityjwt.repo.ProductRepo;
+import edu.miu.cs545.springsecurityjwt.service.ProductService;
+import edu.miu.cs545.springsecurityjwt.utils.ProductUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

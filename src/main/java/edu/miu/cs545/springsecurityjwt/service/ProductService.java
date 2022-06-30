@@ -1,6 +1,6 @@
-package edu.miu.cs545.aop.service;
+package edu.miu.cs545.springsecurityjwt.service;
 
-import edu.miu.cs545.aop.dto.ProductDto;
+import edu.miu.cs545.springsecurityjwt.dto.ProductDto;
 
 import java.util.List;
 
