@@ -12,7 +12,7 @@ spring:
       hibernate:
         format_sql: true
   datasource:
-    url: jdbc:mysql://localhost:3306/springdatai
+    url: jdbc:mysql://localhost:3306/springsecurityjwt
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -23,6 +23,14 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
+  server:
+    port: 8081
+  logging:
+    level:
+      org:
+        springframework:
+          web: DEBUG
+        hibernate: ERROR
 hibernate:
   dialect:
     org:
