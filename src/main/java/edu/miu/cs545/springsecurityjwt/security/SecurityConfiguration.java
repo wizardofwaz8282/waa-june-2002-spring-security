@@ -29,13 +29,15 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        System.out.println("hhhhh");
         http
                 .csrf().disable()
                 .authorizeRequests()
-                .antMatchers("/api/v1/uaa").permitAll()
-                .antMatchers("/api/v1/uaa/signup").permitAll()
-                .antMatchers("/api/v1/products").permitAll()//hasAuthority("USER")
+                .antMatchers("/uaa").permitAll()
+                .antMatchers("/uaa/signup").permitAll()
+                .antMatchers("/product").permitAll()
+                .antMatchers("/product").permitAll()
+
+                .antMatchers("/user/{id}").hasAuthority("ADMIN")
                 .anyRequest()
                 .authenticated() //logined
                 .and()
