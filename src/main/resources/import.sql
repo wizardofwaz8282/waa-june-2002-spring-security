@@ -13,3 +13,11 @@ INSERT INTO product VALUES (2,'Paper', .08, 10,2,1);
 --Review
 INSERT INTO review VALUES(1,'The paper is Tear-Able',1,2)
 INSERT INTO review VALUES(2,'Dont knock it till you try it, and then knock it. Three thumbs down',2,1)
+
+--Roles
+INSERT INTO role VALUES(1,'USER')
+INSERT INTO role VALUES(2,'ADMIN')
+
+--User-Roles
+INSERT INTO users_roles VALUES(1,1)
+INSERT INTO users_roles VALUES(2,2)
